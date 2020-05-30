@@ -5,8 +5,8 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint',
     'plugin:react/recommended',
-    '@react-native-community',
-    'plugin:react-native/all',
+    '@react-native-community', //一旦無効化
+    // 'plugin:react-native/all', //一旦無効化
     'plugin:jest/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -28,12 +28,12 @@ module.exports = {
     'no-console': 'warn',
     semi: 'off',
     yoda: 'off',
-    '@typescript-eslint/camelcase': [
-      'error',
-      {
-        allow: ['item_id', 'item_name', 'item_category'],
-      },
-    ],
+    // '@typescript-eslint/camelcase': [
+    //   'error',
+    //   {
+    //     allow: ['item_id', 'item_name', 'item_category'],
+    //   },
+    // ],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-empty-function': 'off',
     'react-native/no-raw-text': 'off',
