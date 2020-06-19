@@ -4,3 +4,4 @@ export const LOADING = 'LOADING';
 export const CHOOSE_LOGIN = 'CHOOSE_LOGIN';
 export const STATISTICS = 'STATISTICS';
 export const DETAIL = 'DETAIL';
+export const USER_INFO = 'USER_INFO';
