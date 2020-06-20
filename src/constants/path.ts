@@ -6,5 +6,5 @@ export const STATISTICS = 'STATISTICS';
 export const DETAIL = 'DETAIL';
 export const USER_INFO = 'USER_INFO';
 export const INPUT = 'INPUT';
-export const SIGNUP = 'SIGNUP';
-export const SIGNIN = 'SIGNIN';
+export const SIGN_UP = 'SIGN_UP';
+export const SIGN_IN = 'SIGN_IN';
