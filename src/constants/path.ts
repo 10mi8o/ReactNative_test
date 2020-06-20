@@ -6,3 +6,4 @@ export const STATISTICS = 'STATISTICS';
 export const DETAIL = 'DETAIL';
 export const USER_INFO = 'USER_INFO';
 export const INPUT = 'INPUT';
+export const SIGNUP = 'SIGNUP';
